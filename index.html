@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PerezofAbuja</div>
+        <div class="social-buttons">
+          <a href="" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+          <a href="" target="_blank" class="github"><i class="fab fa-github"></i></a>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>SUNDAY PERE CHEBE</h1>
+        <p>perezsunday071@gmail.com | perezofabuja@gmail.com.</p>
+        <p>TEL: 09015415121</p>
+    </div>
+    <div class="content" id="bio">
+        <div class="profile-pic">
+            <img src="IMG_20250209_091441_999.jpg" alt="Profile Picture">
+        </div>
+        <div class="bio">
+            <h2>About me</h2>
+            <p>I'm a self-taught website designer and developer passionate about helping brands and businesses grow. I specialize in creating clean, functional websites that boost visibility and drive productivity. In addition to custom design and development, I offer ready-to-use website templates tailored for businesses and brands looking to launch quickly and professionally.</p>
+            <button>send me DM</button>
+        </div>
+    </div>
+    <section class="wrap skills-section" id="skills">
+  <h2 class="section-title">My Web Design Skills</h2>
+  <p class="section-desc">
+    I specialize in creating elegant, responsive, and accessible websites that blend functionality with visual harmony.
+  </p>
+
+  <div class="skills-list">
+    <div class="skill">
+      <div class="skill-info">
+        <span>HTML5</span><span class="percent">90%</span>
+      </div>
+      <div class="progress"><div class="bar" data-level="90"></div></div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>CSS3 / Tailwind</span><span class="percent">85%</span>
+      </div>
+      <div class="progress"><div class="bar" data-level="85"></div></div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>JavaScript (ES6+)</span><span class="percent">80%</span>
+      </div>
+      <div class="progress"><div class="bar" data-level="80"></div></div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span>UI/UX Design</span><span class="percent">75%</span>
+      </div>
+      <div class="progress"><div class="bar" data-level="75"></div></div>
+    </div>
+  </div>
+</section>
+
+    <main class="wrap" id="projects">
+    <div class="projects-header" aria-hidden="false">
+      <div class="title">
+        <span class="badge">Featured</span>
+        <div>
+          <h2>Selected Projects</h2>
+          <p class="lead">A curated selection of UI, web &amp; product projects — responsive, accessible &amp; production-ready.</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="filters" role="tablist" aria-label="Project categories">
+          <button class="filter active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="ui">UI</button>
+          <button class="filter" data-filter="mobile">Mobile</button>
+        </div>
+
+        <div class="search" role="search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle></svg>
+          <input id="search" placeholder="Search projects..." aria-label="Search projects" />
+        </div>
+      </div>
+    </div>
+
+    <div class="curvy"></div>
+
+    <section id="projects" class="grid" aria-live="polite">
+      <!-- Cards injected by JS for clarity. Fallback static card: -->
+    </section>
+
+    <div style="display:flex;justify-content:center;margin-top:20px">
+      <button id="loadMore" class="btn demo">Load more</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-card" role="document">
+        <button id="closeModal" class="close" aria-label="Close">✕</button>
+        <div id="modalContent" class="modal-grid">
+          <!-- content injected -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- testimonial section -->
+   <section class="wrap testimonials-section" id="testimonials">
+  <h2 class="section-title">What My Clients Say</h2>
+  <p class="section-desc">
+    Here’s what some of my clients and collaborators have said about my work and dedication to great design.
+  </p>
+
+  <div class="testimonials-container">
+    <div class="testimonial active">
+      <div class="avatar">
+        <img src="https://i.pravatar.cc/100?img=32" alt="Client Photo">
+      </div>
+      <p class="quote">
+        “An exceptional designer! The website exceeded expectations — sleek, modern, and user-friendly.”
+      </p>
+      <h4 class="name">Sarah Thompson</h4>
+      <span class="role">Creative Director, BrightStudio</span>
+    </div>
+
+    <div class="testimonial">
+      <div class="avatar">
+        <img src="https://i.pravatar.cc/100?img=45" alt="Client Photo">
+      </div>
+      <p class="quote">
+        “Delivered everything on time with clear communication. Highly recommended for any web project.”
+      </p>
+      <h4 class="name">James Rivera</h4>
+      <span class="role">Founder, RiverTech</span>
+    </div>
+
+    <div class="testimonial">
+      <div class="avatar">
+        <img src="https://i.pravatar.cc/100?img=67" alt="Client Photo">
+      </div>
+      <p class="quote">
+        “Truly understands modern web aesthetics. My site looks stunning across all devices.”
+      </p>
+      <h4 class="name">Lena Brooks</h4>
+      <span class="role">Marketing Manager, CloudEdge</span>
+    </div>
+  </div>
+
+  <div class="testimonial-nav">
+    <button class="prev">‹</button>
+    <button class="next">›</button>
+  </div>
+</section>
+<section class="wrap contact-section" id="contact">
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="section-desc">
+    Have a project in mind or just want to say hello? Fill out the form below, and I’ll get back to you soon.
+  </p>
+
+  <form class="contact-form" id="contactForm" novalidate action="https://formspree.io/f/xyznrvoj">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com">
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+    </div>
+
+    <button type="submit" class="send-btn">Send Message</button>
+    <p class="form-status" id="formStatus"></p>
+  </form>
+</section>
+<footer class="site-footer">
+  <div class="wrap footer-content">
+    <div class="footer-left">
+      <h3 class="footer-logo">PerezofAbuja<span>.</span></h3>
+      <p class="footer-desc">
+        Crafting elegant, fast, and user-friendly web experiences with passion for clean design.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#bio">Bio</a>
+      <a href="#skills">Skills</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Privacy</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> PerezofAbuja. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+  <script src="script.js"></script>
+  <script src="submitForm.js"></script>
+</body>
+</html>
